@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Timeline;
+
+
+[TrackBindingType(typeof(Subtitles))]
+[TrackClipType(typeof(SubtitleControlBehaviour))]
+public class SubtitleControlTrack : TrackAsset { 
+
+
+}
