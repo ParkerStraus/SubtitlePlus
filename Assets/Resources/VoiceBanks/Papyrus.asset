@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Clips:
   - {fileID: 8300000, guid: db81c64b0d895ff41956b38f0045662c, type: 3}
-  SyllableSpeed: 0.075
+  LetterSpeed: 0.075
+  WaitTilDone: 0
   MadeForPhoenetics: 0
-  WaitForVoice: 0
   RandomClip: 1
-  NextSyllable: 0
   ModulatableRange_min: 0
   ModulatableRange_max: 0

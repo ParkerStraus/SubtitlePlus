@@ -466,7 +466,7 @@ MonoBehaviour:
         m_MethodName: TimelineText
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f4cb99c59bd6736499c3ef66d8ab7a39,
+          m_ObjectArgument: {fileID: 11400000, guid: 7daa0dac9cfb3424dabbde76e82bde81,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Playables.PlayableAsset,
             UnityEngine

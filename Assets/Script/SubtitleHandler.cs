@@ -15,7 +15,7 @@ public static class SubtitleHandler
         if (main != null) return;
         GameObject copy = GameObject.Instantiate(Resources.Load<GameObject>("SubtitleObject/" + subtitleType), GameObject.Find("Canvas").transform);
         main = copy.GetComponent<Subtitles>();
-        Debug.Log(main);
+        //Debug.Log(main);
     }
 
     public static void DisplaySubtitles(string subtitles, string speaker, string VoiceBank, float DisplayTime, bool HideAfterwards = true, bool DisplayAll = false)
@@ -41,16 +41,14 @@ public static class SubtitleHandler
         main.SetSpeaker(speaker);
     }
 
-    public static void DisplaySnippet(string text, bool DisplayAtOnce)
+    public static void DisplaySnippet(string text)
     {
-        if(DisplayAtOnce)
-        {
-            main.DisplaySnippet(text);
-        }
-        else
-        {
-            main.DisplaySubtitles(HideAfterwards: false, DisplayAll: false, text);
-        }
+        main.DisplaySnippet(text);
+    }
+
+    public static void DisplayReveal(string text, double Range)
+    {
+        main.DisplaySnippetReveal(text, Range);
     }
 
     public static void LoadNewVoiceBank(string voicebank)

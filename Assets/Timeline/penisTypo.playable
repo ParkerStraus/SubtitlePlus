@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: <shake=0.5,30,0.1>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-8096727876046801081
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'GOTTA '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-6434164128180962098
 MonoBehaviour:
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: <shake=0.9,30,0.3>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-5869205855075934740
 MonoBehaviour:
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <exit>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-5362524372028892513
 MonoBehaviour:
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'BED. '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-5261469357674425460
 MonoBehaviour:
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <clear><shake=10,60,0.45>PENIS TYPO
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-4363161093344264646
 MonoBehaviour:
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <clear><speaker=Now it's the Replier>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-3952260207556507619
 MonoBehaviour:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: <shake=5,60,0.1>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-3817667205732762939
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: <shake=0.7,30,0.25>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-2652259715268789405
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'NIGHT '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-1730975076268306893
 MonoBehaviour:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: O'
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-615612288577438994
 MonoBehaviour:
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'TO '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &-537237605404211905
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'COCK '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &11400000
 MonoBehaviour:
@@ -1271,7 +1271,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SubtitlePlayable
   - m_Version: 1
-    m_Start: 22.04
+    m_Start: 21.888
     m_ClipIn: 0
     m_Asset: {fileID: -5869205855075934740}
     m_Duration: 0.8800000000000026
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: R
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &1894071601814212613
 MonoBehaviour:
@@ -1418,7 +1418,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 1
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &2553702363454112737
 MonoBehaviour:
@@ -1433,7 +1433,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <speaker=SHIT>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &2609692133340731670
 MonoBehaviour:
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: B
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &3012935872460677259
 MonoBehaviour:
@@ -1591,7 +1591,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'I '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &3707946008408560657
 MonoBehaviour:
@@ -1606,7 +1606,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: '<shake=2,10,0.1>SHIT '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &4156893915807714764
 MonoBehaviour:
@@ -1621,7 +1621,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'GO '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &5015036489191403610
 MonoBehaviour:
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: IT'S
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &5832808774744825953
 MonoBehaviour:
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <shake=0.5,30,0.1>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &5921945879162003309
 MonoBehaviour:
@@ -1666,7 +1666,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: '<shake=1,30,0.1>FUCK '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &5961780259222859519
 MonoBehaviour:
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: 'B '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &6400305566923933572
 MonoBehaviour:
@@ -1696,7 +1696,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: <speaker=Dis the Speaker>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &6476262404802465573
 MonoBehaviour:
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: <shake=0.5,30,0.1>
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &6905832493818306892
 MonoBehaviour:
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: GOOD
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &7266694965829707745
 MonoBehaviour:
@@ -1741,7 +1741,7 @@ MonoBehaviour:
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
   text: '<shake=2,30,0.1>WAIT! '
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 
 --- !u!114 &9196257231085223693
 MonoBehaviour:
@@ -1756,5 +1756,5 @@ MonoBehaviour:
   m_Name: SubtitlePlayable(Clone)(Clone)
   m_EditorClassIdentifier: 
   text: COCK
-  DisplayAllAtOnce: 0
+  DisplayAllAtOnce: 1
   voiceBank: 

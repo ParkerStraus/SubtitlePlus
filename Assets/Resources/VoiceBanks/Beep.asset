@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3156be5d2310954c9209cf708a29fb2, type: 3}
   m_Name: Beep
   m_EditorClassIdentifier: 
-  Clips: []
-  LetterSpeed: 0
+  Clips:
+  - {fileID: 8300000, guid: f5c4907216a54cb498472f09f8b48bcb, type: 3}
+  LetterSpeed: 0.075
   WaitTilDone: 0
   MadeForPhoenetics: 0
   RandomClip: 1

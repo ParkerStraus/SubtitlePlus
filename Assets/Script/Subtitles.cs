@@ -70,7 +70,6 @@ public class Subtitles : MonoBehaviour
 
                                 // Extract text to display
                                 string textToDisplay = text.Substring(endIndex + 1, endTagIndex - endIndex - 1);
-                                Debug.Log("Found text: " + textToDisplay);
 
                                 // Display text block
                                 AddToText(textToDisplay, false);
@@ -146,11 +145,10 @@ public class Subtitles : MonoBehaviour
                                 int lengthOfValue = endIndex - i - startOfValue;
                                 string waitTimeStr = tag.Substring(startOfValue, lengthOfValue);
                                 waitTime = float.Parse(waitTimeStr);
-                                Debug.Log(waitTime);
+                                //Debug.Log(waitTime);
 
                                 // Find </blockwait> tag
                                 int endTagIndex = text.IndexOf("</blockwait>", endIndex + 1);
-                                Debug.Log("Found end tag at " + endTagIndex);
                                 if (endTagIndex == -1)
                                 {
                                     Debug.LogError("Missing </blockwait> tag.");
@@ -159,7 +157,7 @@ public class Subtitles : MonoBehaviour
 
                                 // Extract text to display
                                 string textToDisplay = text.Substring(endIndex + 1, endTagIndex - endIndex - 1);
-                                Debug.Log("Found text: " + textToDisplay);
+                                //Debug.Log("Found text: " + textToDisplay);
 
                                 // Display text block
                                 AddToText(textToDisplay);
@@ -180,11 +178,11 @@ public class Subtitles : MonoBehaviour
                         else if (tag.StartsWith("<shake="))
                         {
                             // Handle shake tag
-                            Debug.Log(tag);
+                            //Debug.Log(tag);
                             int startOfValue = 7;
                             int lengthOfValue = endIndex - i - startOfValue;
 
-                            Debug.Log(lengthOfValue);
+                            //Debug.Log(lengthOfValue);
                             string values = tag.Substring(startOfValue, lengthOfValue - 1);
                             Shake(values);
                             i += startOfValue + lengthOfValue + 1;
@@ -232,7 +230,6 @@ public class Subtitles : MonoBehaviour
     public void DisplaySnippet(string text)
     {
         StopAllCoroutines();
-        print(text);
         int i = 0;
         while (i < text.Length)
         {
@@ -243,16 +240,16 @@ public class Subtitles : MonoBehaviour
                 {
                     string tag = text.Substring(i, endIndex - i + 1);
 
-                    print(tag);
+                    //print(tag);
                     // Handle <blockwait=...>
                     if (tag.StartsWith("<shake="))
                     {
                         // Handle shake tag
-                        Debug.Log(tag);
+                        //Debug.Log(tag);
                         int startOfValue = 7;
                         int lengthOfValue = endIndex - i - startOfValue;
 
-                        Debug.Log(lengthOfValue);
+                        //Debug.Log(lengthOfValue);
                         string values = tag.Substring(startOfValue, lengthOfValue);
                         i += startOfValue + lengthOfValue + 1;
                         Shake(values);
@@ -261,30 +258,30 @@ public class Subtitles : MonoBehaviour
                     else if (tag.StartsWith("<speaker="))
                     {
                         // Handle shake tag
-                        Debug.Log(tag);
-                        int startOfValue = tag.IndexOf('=',i+1)+1;
+                        //Debug.Log(tag);
+                        int startOfValue = tag.IndexOf('=', i + 1) + 1;
                         int lengthOfValue = endIndex - i - startOfValue;
 
-                        Debug.Log(lengthOfValue);
+                        //Debug.Log(lengthOfValue);
                         SpeakerText.text = tag.Substring(startOfValue, lengthOfValue);
                         i += startOfValue + lengthOfValue + 1;
                         continue;
                     }
-                    else if (tag.StartsWith("<clear>"))
+                    else if (tag.StartsWith("<clea"))
                     {
                         Clear();
                         i += 7;
                         continue;
                     }
-                    else if (tag.StartsWith("<exit>"))
+                    else if (tag.StartsWith("<exi"))
                     {
                         SubtitleHandler.DeleteSubtitles();
-                        continue;
+                        break;
                     }
-                    else if (tag.StartsWith("<hide>"))
+                    else if (tag.StartsWith("<hid"))
                     {
                         AnimateHide();
-                        continue;
+                        break;
                     }
                     else
                     {
@@ -305,6 +302,12 @@ public class Subtitles : MonoBehaviour
             MainText.text = tmpText;
         }
     }
+
+    public void DisplaySnippetReveal(string text, double Percent)
+    {
+        Debug.Log(Percent);
+    }
+
 
     public void SetSpeaker(string speaker)
     {
@@ -371,7 +374,7 @@ public class Subtitles : MonoBehaviour
         }
         catch(Exception e)
         {
-            Debug.Log(e);
+            //Debug.Log(e);
         }
         rectTransform.DOShakeAnchorPos(duration, float.Parse(valueParsed[0])*10, int.Parse(valueParsed[1])*10, 90, false, true, ShakeRandomnessMode.Full);
     }
