@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f264c2dfe83f2f43be5b4324e3ebd5f, type: 3}
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
-  text: BOOOO
+  text: 1
   DisplayAllAtOnce: 1
   voiceBank: Papyrus
   start: 0
@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f264c2dfe83f2f43be5b4324e3ebd5f, type: 3}
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
-  text: HERE'S On the other hand a very quick reveal over a shorter period of time.
+  text: 'HERE''S On the other hand a very quick reveal over a shorter period of time. '
   DisplayAllAtOnce: 0
   voiceBank: Sans
   start: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f264c2dfe83f2f43be5b4324e3ebd5f, type: 3}
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
-  text: BIP
+  text: Exiting in 3
   DisplayAllAtOnce: 1
   voiceBank: PunchOut
   start: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SubtitlePlayable
   - m_Version: 1
-    m_Start: 11.84
+    m_Start: 12
     m_ClipIn: 0
     m_Asset: {fileID: 648027986723731457}
     m_Duration: 0.6799999999999997
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SubtitlePlayable
   - m_Version: 1
-    m_Start: 12.92
+    m_Start: 13
     m_ClipIn: 0
     m_Asset: {fileID: 3185152395590577093}
     m_Duration: 0.6400000000000006
@@ -389,10 +389,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SubtitlePlayable
   - m_Version: 1
-    m_Start: 14.68
+    m_Start: 14
     m_ClipIn: 0
     m_Asset: {fileID: -6367535882547428788}
-    m_Duration: 2.16
+    m_Duration: 0.8000000000000007
     m_TimeScale: 1
     m_ParentTrack: {fileID: 660894875075945141}
     m_EaseInDuration: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SubtitlePlayable
   - m_Version: 1
-    m_Start: 18.16
+    m_Start: 15
     m_ClipIn: 0
     m_Asset: {fileID: 6741612707484256090}
     m_Duration: 1.120000000000001
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f264c2dfe83f2f43be5b4324e3ebd5f, type: 3}
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
-  text: Bip
+  text: 2
   DisplayAllAtOnce: 1
   voiceBank: Papyrus
   start: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f264c2dfe83f2f43be5b4324e3ebd5f, type: 3}
   m_Name: SubtitlePlayable
   m_EditorClassIdentifier: 
-  text: Very Long Reveal
+  text: 'Very Long Reveal. '
   DisplayAllAtOnce: 0
   voiceBank: Toriel
   start: 0
