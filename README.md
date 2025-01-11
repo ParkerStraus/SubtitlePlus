@@ -3,8 +3,7 @@
 
  ## Escape Codes
 ```
- - <shake=x,y,z>
-  Self explanatory. Shakes the box
+ - <shake=x,y,z> Self explanatory. Shakes the box
  - <block=x></block> Displays the word in once chunk. Not by individual letters
  - <speaker=x> Changes the speakers name.
  - <clear> Clears the subtitle's main text.
