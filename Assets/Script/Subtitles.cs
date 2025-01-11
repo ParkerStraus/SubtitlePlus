@@ -285,7 +285,7 @@ public class Subtitles : MonoBehaviour
                     }
                     else
                     {
-                        AddToText(tag, false);
+                        AddToText(tag);
                         i += tag.Length - 1;
                         continue;
                     }
@@ -293,7 +293,7 @@ public class Subtitles : MonoBehaviour
             }
             else
             {
-                AddToText(text[i], false);
+                AddToText(text[i]);
             }
 
             i++;
@@ -303,10 +303,6 @@ public class Subtitles : MonoBehaviour
         }
     }
 
-    public void DisplaySnippetReveal(string text, double Percent)
-    {
-        Debug.Log(Percent);
-    }
 
 
     public void SetSpeaker(string speaker)

@@ -46,10 +46,6 @@ public static class SubtitleHandler
         main.DisplaySnippet(text);
     }
 
-    public static void DisplayReveal(string text, double Range)
-    {
-        main.DisplaySnippetReveal(text, Range);
-    }
 
     public static void LoadNewVoiceBank(string voicebank)
     {
