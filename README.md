@@ -13,3 +13,11 @@
  - <exit> Deletes the subtitles without animation
 
 ```
+
+## Example Implementation
+```
+public void SummonNewText(string text)
+{
+    SubtitleHandler.DisplaySubtitles(text, "SomeDude", "_random", DisplayTime: 10f, DisplayAll: false);
+}
+```
