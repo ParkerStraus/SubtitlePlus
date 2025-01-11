@@ -1,6 +1,8 @@
 # SubtitlePlus
  A cool Subtitles package made for the fun in it
 
+## Methods
+
  ## Escape Codes
 ```
  - <shake=x,y,z> Self explanatory. Shakes the box
